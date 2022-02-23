@@ -16,9 +16,7 @@
     - `apply plugin: 'kotlin-kapt'` を追加
     - 修正し終えると `Command + option + shift + L` で整形する
 1. 書き終えると文法チェック
-    - ```bash
-./gradlew lint
-```
+    - `./gradlew lint`
     - [File] > [Sync Project with Gradle Files] を実行  
 1. レイアウト関連のxmlファイルを追加
     - `app/src/main/res/layout/activity_main.xml`
