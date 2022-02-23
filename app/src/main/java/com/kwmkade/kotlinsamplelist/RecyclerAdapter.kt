@@ -18,6 +18,8 @@ class RecyclerAdapter : RecyclerView.Adapter<RecyclerAdapter.RecyclerViewHolder>
         notifyDataSetChanged()
     }
 
+    fun getItems(): List<Todo> = todoList
+
 //    private val todoList = mutableListOf<String>()
 //    fun setItem(item: String) {
 //        todoList.add(item)

@@ -9,4 +9,9 @@ class TodoRepository(private val todoDao: TodoDao) {
     suspend fun insert(todo: Todo) {
         todoDao.insert(todo)
     }
+
+    @WorkerThread
+    suspend fun delete(todo: Todo) {
+        todoDao.delete(todo)
+    }
 }
