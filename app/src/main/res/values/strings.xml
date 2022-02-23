@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">KotlinSampleList</string>
+    <string name="button">BUTTON</string>
+    <string name="input">HINT</string>
+    <string name="recycler_picture">ContentDescription</string>
+    <string name="text_view">Sample</string>
+</resources>
